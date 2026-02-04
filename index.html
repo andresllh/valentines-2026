@@ -55,6 +55,8 @@
       margin: 0 auto 10px;
       display: block;
       filter: drop-shadow(0 10px 14px rgba(0,0,0,.12));
+      /* Makes solid black background blend away (appear transparent) on light backgrounds */
+      mix-blend-mode: lighten;
     }
 
     h1 {
@@ -120,6 +122,7 @@
       width: min(380px, 90vw);
       margin: 0 auto;
       display: block;
+      mix-blend-mode: lighten;
     }
 
     @keyframes pop {
@@ -136,11 +139,11 @@
     <!-- AUSTRALIAN SHEPHERD WITH HEART -->
     <img
       class="art"
-      src="reyna_cover_no_background.jpeg"
+      src="reyna_cover.png"
       alt="Australian Shepherd con corazón"
     />
 
-    <h1>Hola Bebesina!! Quieres ser mi Valentíne?</h1>
+    <h1>Hola Mama!! Mi Papa queiere saber si quieres ser su Valentin?</h1>
 
     <section class="button-zone" id="zone">
       <button id="yesBtn">Sí</button>
@@ -148,10 +151,10 @@
     </section>
 
     <!-- HINT -->
-    <div class="hint" id="hint">"No" parece un poco tímido 😈</div>
+    <div class="hint" id="hint">Intenta en Computadora o en el Celular, pero es mas divertido en la compu.</div>
 
     <section class="result" id="result">
-      <h2>¡SÍIII! 🎉</h2>
+      <h2>Yaaaay!! Mis Papas son los mejores!! 🎉</h2>
       <img
         class="fireworks"
         src="reyna_no_background.jpeg"
